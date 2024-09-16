@@ -1,0 +1,80 @@
+:root {
+    --primary: #508be9;
+    --font-primary: "poppins";
+}
+
+body {
+    background-color: var(--primary);
+    font-family: var(--font-primary);
+}
+.container {
+    margin-bottom: 150px;
+}
+.logo h2 {
+    font-family: "potta one";
+    color: #fff;
+}
+.content {
+    padding: 25px 15px;
+    margin-block: 38px;
+    border-radius: 10px;
+    background-color: #ffffff68;
+    opacity: 0;
+}
+
+.input-text::placeholder{
+    font-style: italic
+}
+
+
+.located h2 {
+    display: inline;
+    font-weight: 800;
+}
+
+.weather {
+    display: flex;
+}
+.icon img {
+    width: 100px;
+}
+
+.weather-info {
+    align-self: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    font-size: 3em;
+}
+
+.information p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2em;
+    }
+    .footer {
+        font-size: 2em;
+    }
+    .information {
+        flex-direction: column;
+    }
+    .information div {
+        margin-block: 10px;
+    }
+}
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1em;
+    }
+    .footer {
+        font-size: 10px;
+        line-height: 50%;
+    }
+}

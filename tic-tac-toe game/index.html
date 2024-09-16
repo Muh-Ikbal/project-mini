@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="home">
+        <h2 class="header mt-3">Tic-Tac-Toe Games</h2>
+        <button id="toInGame" class="btn btn-primary mx-2">mulai</button>
+    </div>
+    <!-- <div class="select-character ">
+        
+    </div> -->
+    <div class="container">
+        <div class="char1" id="char1">
+            <p>Score : <span id="xWins"></span></p>
+            <img src="assets/img/char1.png" class="player1 player" alt="" />
+        </div>
+        <div class="ingame text-center">
+            <div class="header-game">
+                CURRENT PLAYER :
+                <img src="assets/img/char1-icon.png" class="current-player" />
+                <!-- <span class="current-player">X</span> -->
+            </div>
+            <div class="boxes">
+                <table>
+                    <tr>
+                        <td class="box" id="k0" onclick="choose(0)"></td>
+                        <td class="box" id="k1" onclick="choose(1)"></td>
+                        <td class="box" id="k2" onclick="choose(2)"></td>
+                    </tr>
+                    <tr>
+                        <td class="box" id="k3" onclick="choose(3)"></td>
+                        <td class="box" id="k4" onclick="choose(4)"></td>
+                        <td class="box" id="k5" onclick="choose(5)"></td>
+                    </tr>
+                    <tr>
+                        <td class="box" id="k6" onclick="choose(6)"></td>
+                        <td class="box" id="k7" onclick="choose(7)"></td>
+                        <td class="box" id="k8" onclick="choose(8)"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="description">
+                <button onclick="playAgain()" class="btn-playAgain btn btn-warning">
+                    Play Again
+                </button>
+                <button onclick="restartGame()" class="btn-restart btn btn-danger">
+                    Restart
+                </button>
+                <p class="mx-2">THE WINNER : <span id="wins"></span></p>
+            </div>
+
+        </div>
+        <div class="char2" id="char2">
+            <p>Score : <span id="oWins"></span></p>
+            <img src="assets/img/char3.png" class="player2 player" alt="" />
+        </div>
+    </div>
+    <script src="assets/JS/init.js"></script>
+    <script src="assets/JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

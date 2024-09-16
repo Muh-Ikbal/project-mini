@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Website Find a Meal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <!-- content search -->
+            <div class="meal-search">
+                <h2>Find Your Favorite Food</h2>
+                <blockquote class="text">makanan yang baik adalah makanan yang bergizi
+                    <br>
+                    <cite>-orang sok pintar-</cite>
+                </blockquote>
+                <div class="search-box">
+                    <input type="text" placeholder="input meal" class="search-content" id="search-input">
+                    <button type="submit" id="button-search" class="btn button-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- result -->
+            <div class="search-result">
+                <h2 class="tittle">Results:</h2>
+                <div class="meals">
+                    <!-- item start -->
+                    <!-- <div class="meal-items">
+                        <div class="meal-img">
+                            <img src="img/salmon.jpg" alt="">
+                        </div>
+                        <div class="meal-desc">
+                            <h3>salmon</h3>
+                            <a class="btn-recipe " href="#">Dapatkan Resep</a>
+                        </div>
+                    </div> -->
+                    <!-- item end -->
+                    <!-- item start -->
+                    <!-- <div class="meal-items">
+                        <div class="meal-img">
+                            <img src="img/salmon.jpg" alt="">
+                        </div>
+                        <div class="meal-desc">
+                            <h3>salmon</h3>
+                            <a class="btn-recipe " href="#">Dapatkan Resep</a>
+                        </div>
+                    </div> -->
+                    <!-- item end -->
+                </div>
+            </div>
+            <!-- details food -->
+            <div class="meal-details">
+                <!-- close button -->
+                <button id="recipe-close-button" class="btn recipe-close-button">
+                    <i class="fas fa-times"></i>
+                </button>
+                <!-- meal content -->
+                <div class="meal-detail-content">
+                    <!-- <h2 class="recipe-tittle">Meats Name Here</h2>
+                    <p class="recipe-category">category name</p>
+                    <div class="recipe-isntruct">
+                        <h3>instuction:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus libero tempore ratione,
+                            adipisci rerum nisi tenetur obcaecati quam pariatur neque earum dolore molestias error, quas
+                            fugit omnis quidem officia illo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus libero tempore ratione,
+                            adipisci rerum nisi tenetur obcaecati quam pariatur neque earum dolore molestias error, quas
+                            fugit omnis quidem officia illo?</p>
+                        <div class="recipe-meal-image">
+                            <img src="img/salmon.jpg" alt="">
+                        </div>
+                        <div class="recipe-link">
+                            <a href="#" target="_blank">Watch video</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
