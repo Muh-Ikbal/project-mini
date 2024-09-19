@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-block: 20px;
+}
+select{
+    border: none;
+    width: 5em;
+    height: 2em;
+    border-bottom: 1px solid;
+
+}
+select:focus{
+    outline: none;
+    border-bottom: 2px solid green;
+
+}
+

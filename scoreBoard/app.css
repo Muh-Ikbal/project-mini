@@ -1,0 +1,44 @@
+body {
+    color: #fff;
+    background-color: palevioletred;
+    font-family: Verdana, sans-serif;
+}
+
+.scoreboard {
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.points p {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    background-color: #000;
+    color: #f94f6d;
+    min-width: 205px;
+}
+
+.btn-primary {
+    background: transparent;
+    color: #ffffff;
+    border-color: #0d0408;
+    font-size: 1.5rem;
+}
+
+.btn-primary:active,
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(143, 36, 176);
+    border-color: rgb(137, 134, 135);
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+    color: white;
+    background-color: orchid;
+}
